@@ -1,0 +1,45 @@
+.coming{
+  font-family: var(--font);
+  margin-left: 10rem;
+  margin-top: 2rem;
+  transition: 0.3s ease-in-out;
+  color: white;
+  margin-bottom: 1rem;
+}
+.coming img{
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.com{
+  position: relative;
+  padding: 0 1rem;
+  cursor: grab;
+}
+.com:active{
+  cursor: grabbing;
+}
+.CsTitle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.slick-slide , .slick-slider{
+  transition: 0.3s ease-in-out;
+}
+.slick-slide:hover .CsTitle{
+ display: block;
+}
+@media screen and (max-width: 501px){
+  .coming{
+    margin-left: 1rem;
+    
+  }
+  
+}

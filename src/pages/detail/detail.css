@@ -1,0 +1,89 @@
+@import url(../../global.css);
+.detail{
+  width: 85%;
+  height: 85vh;
+  color: white;
+  font-family: var(--font);
+  margin-left: 10rem;
+}
+.detail-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.left-desc{
+  flex: 6;
+}
+.right-desc{
+  flex: 6;
+  text-align: right;
+  margin-right: 1rem;
+  font-size: 14px;
+  color: var(--detail-font)
+}
+
+.col-3{
+  display: flex;
+  flex: 6;
+  color: var(--detail-font);
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.col-3 div{
+  margin-inline: 1rem;
+}
+.col-3 .year{
+  margin-left: 0;
+}
+.col-3 span{
+  font-size: 12px;
+}
+.rating{
+  font-size: 14px;
+  color: var(--detail-font)
+}
+.detail-stars{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn_watchNow{
+  background: rgb(29,80,116);
+  background: linear-gradient(90deg, rgba(29,80,116,1) 0%, rgba(23,73,158,1) 35%, rgba(13,58,135,1) 100%);
+  border:none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: whitesmoke;
+  width: 300px;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 1025px){
+
+  .detail{
+    width: 80%;
+  }
+
+}
+@media screen and (max-width: 769px){
+  
+  .detail-desc{
+    flex-direction: column;
+    
+  }
+  .detail-stars{
+    flex-direction: column;
+  }
+  .right-desc{
+    text-align: left;
+    margin: 10px 10px 10px 0;
+  }
+  .right-button{
+    align-self: flex-start;
+    margin: 10px 0;
+
+  }
+}
+@media screen and (max-width: 501px){
+  .detail{
+    margin-left: 1rem;
+  }
+}

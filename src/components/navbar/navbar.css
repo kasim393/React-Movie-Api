@@ -1,0 +1,128 @@
+@import url(/src/global.css);
+.navbar{
+  color: var(--nav-font-color);
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+}
+.nav-left{
+  display: flex;
+  flex: 6;
+  align-items: center;
+ margin-left: 1rem;
+}
+.nav-left img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-inline: 10px;
+}
+.nav-two-row{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nav-two-row p {
+  font-size: 14px;
+}
+.nav-right{
+  display: flex;
+  flex: 6;
+  align-items: center;
+  justify-content: flex-end;
+}
+.nav-right img {
+  width: 25px;
+  height: 25px;
+}
+.search{
+  position: relative;
+}
+.nav-search {
+  background-color: var(--navbar-item-bg);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 2rem;
+  width: 380px;
+  text-align: center;
+  color: white;
+  outline: none;
+}
+.nav-search-icon{
+position: absolute;
+left: 15px;
+top: 10px;
+}
+.nav-noti{
+  background-color: var(--navbar-item-bg);
+  padding: 12px;
+  font-size: 40px;
+  margin-inline: 1rem;
+  border-radius: 10px;
+}
+.nav-weather{
+  display: flex;
+  background-color: var(--navbar-item-bg);
+  padding: 0.2rem 1rem;
+  align-items: center;
+  border-radius: 10px;
+}
+.nav-weather img{
+  margin-right: 10px;
+}
+.nav-weather p {
+  font-size: 14px;
+}
+@media screen and (max-width: 770px){
+  .nav-search {
+    padding: 0.5rem;
+    margin-inline: 0.5rem;
+    width: 128px;
+  }
+  .nav-two-row h4,h5 {
+    font-size: 12px;
+  }
+  .nav-two-row p {
+    font-size: 12px;
+  }
+
+
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color:    transparent;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    transparent;
+    opacity:  1;
+ }
+ ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    transparent;
+    opacity:  1;
+ }
+ :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    transparent;
+ }
+}
+@media screen and (max-width: 700px){
+  
+  .Name , .nav-noti, .status{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 426px){
+
+ 
+  .degree , .location{
+    font-size: 10px !important;
+  }
+
+  .nav-weather img{
+    width: 20px;
+    height: 20px;
+  }
+  .nav-left{
+    flex: none;
+  }
+  
+}

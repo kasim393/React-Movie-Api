@@ -1,0 +1,17 @@
+:root{
+  /* bg color */
+  --bg-color: rgb(20,12, 40);
+  --navbar-bg: rgb(13,19,54);
+  --navbar-item-bg:rgb(26,15,51);
+  --sidebar-bg:rgb(26,15,51);
+  /* font color */
+  --nav-font-color: rgb(193,193,193);
+  /* font family */
+  --font: 'Poppins', sans-serif;
+
+  --detail-font: rgb(184, 184, 184);
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}

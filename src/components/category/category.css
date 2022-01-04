@@ -1,0 +1,29 @@
+.category{
+  font-family: var(--font);
+  margin-left: 10rem;
+  margin-top: 2rem;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+
+.Ctitle{
+  background: #2c253e;
+  margin: 1rem 1rem 0 1rem;
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 501px){
+  .category{
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,51 @@
+.bigBanner{
+  width: 70%;
+  margin: 2rem auto;
+  position: relative;
+}
+.bigImg{
+  width: 100%;
+  height: 60vh;
+  border-radius: 20px;
+}
+.listBanner{
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.listBanner img{
+  border-radius: 10px;
+  margin-right: 1rem;
+  width: 20%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.listBanner img:hover{
+  border: 2px solid whitesmoke;
+}
+
+@media screen and (max-width: 1024px){
+
+  .bigBanner{
+    width: 80%;
+    
+  }
+
+}
+@media screen and (max-width: 769px){
+  .listBanner{
+    display: none;
+  }
+  .bigBanner{
+    margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 501px){
+
+  .bigBanner{
+    width: 100%;
+  }
+}
