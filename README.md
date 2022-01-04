@@ -3,14 +3,7 @@
      Responsive React Movies App With TMDB API
  
 <!--  [Demo](https://friendly-torvalds-97ff52.netlify.app/) -->
-# Resource
 
-    Google font: https://fonts.google.com/
-    
-    FontAwesome : https://fontawesome.com/
-    
-    API: https://www.themoviedb.org/
-   
 ## Build Setup
 
 ``` bash
@@ -28,3 +21,23 @@ $ npm start
 ```
 
 # Preview
+!["React Movie App"](https://github.com/kasim393/assets/blob/main/movie-app/ss1.png)
+
+!["React Movie App"](https://github.com/kasim393/assets/blob/main/movie-app/ss2.png)
+
+# Resource
+
+    Google font: https://fonts.google.com/
+    
+    FontAwesome : https://fontawesome.com/
+    
+    API: https://www.themoviedb.org/
+
+### Task
+- [x] Home page
+- [x] Detail page
+- [x] Movie list
+- [x] Tv Series list
+- [ ] Search module
+- [ ] Category page
+ 
