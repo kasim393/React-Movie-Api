@@ -2,7 +2,8 @@
 <h1 align="center"> 🎬 React Movie App 🍿 </h1>
      Responsive React Movies App With TMDB API
  
-<!--  [Demo](https://friendly-torvalds-97ff52.netlify.app/) -->
+## Live Preview
+[Demo](https://react-movie-app-ks.netlify.app/)
 
 ## Build Setup
 
@@ -20,7 +21,7 @@ $ npm i react-router axios react-slick
 $ npm start
 ```
 
-# Preview
+# Screenshot
 !["React Movie App"](https://github.com/kasim393/assets/blob/main/movie-app/ss1.png)
 
 !["React Movie App"](https://github.com/kasim393/assets/blob/main/movie-app/ss2.png)
